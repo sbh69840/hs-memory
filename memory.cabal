@@ -1,3 +1,4 @@
+cabal-version:       3.0
 Name:                memory
 version:             0.18.0
 Synopsis:            memory and related abstraction stuff
@@ -15,7 +16,7 @@ Description:
     * Encoding : Base16, Base32, Base64.
     .
     * Hashing : FNV, SipHash
-License:             BSD3
+License:             BSD-3-Clause
 License-file:        LICENSE
 Copyright:           Vincent Hanquez <vincent@snarc.org>
 Author:              Vincent Hanquez <vincent@snarc.org>
@@ -25,7 +26,6 @@ Stability:           experimental
 Build-Type:          Simple
 Homepage:            https://github.com/vincenthz/hs-memory
 Bug-Reports:         https://github.com/vincenthz/hs-memory/issues
-cabal-version:       1.18
 extra-doc-files:     README.md CHANGELOG.md
 
 source-repository head
